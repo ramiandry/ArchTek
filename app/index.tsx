@@ -12,7 +12,7 @@ const Index = () => {
   const pagerViewRef = useRef(null);
 
   const handleNavigate = () => {
-    router.push('/Tab');
+    router.replace("/(tabs)/Model")
   };
 
   // Fonction pour passer à la page suivante

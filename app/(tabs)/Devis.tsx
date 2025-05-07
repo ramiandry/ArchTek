@@ -2,7 +2,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const Devis = () => (
+const DevisScreen = () => (
   <View style={styles.screen}>
     <Text style={styles.text}>Devis Screen</Text>
   </View>
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Devis;
+export default DevisScreen;

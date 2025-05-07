@@ -1,8 +1,8 @@
 // src/screens/ModelScreen.js
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
-const Model = () => (
+const ModelScreen = () => (
   <View style={styles.screen}>
     <Text style={styles.text}>Model Screen</Text>
   </View>
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Model;
+export default ModelScreen;
